@@ -1,18 +1,20 @@
-1-) [22,27,16,2,18,6]
+---INSERTION SORT PROJESİ---
 
-1.aşama 22 ile 27 kıyaslandı değişim olmadı.
+1-) [22,27,16,2,18,6] insertion short aşamaları.
+
+1.aşama: 22 ile 27 kıyaslandı değişim olmadı.
 [22,27,16,2,18,6]
 
-2.aşama 27 ile 16 kıyaslandı ve yer değiştirdiler. Bu sefer 16 ile 22 de kıyaslanıp yer değişti.
+2.aşama: 27 ile 16 kıyaslandı ve yer değiştirdiler. Bu sefer 16 ile 22 de kıyaslanıp yer değişti.
 [16,22,27,2,18,6]
 
-3.aşama 27 ile 2 kıyaslandı ve yer değiştirdiler. 2 solda ki sayılarla dan da küçük olduğu için en başa geçti.
+3.aşama: 27 ile 2 kıyaslandı ve yer değiştirdiler. 2 solda ki sayılarla dan da küçük olduğu için en başa geçti.
 [2,16,22,27,18,6]
 
-4.aşama 27 ile 18 kıyaslandı ve yer değiştirdiler. 18 22 den küçük 16 dan büyük olduğu için bir kez daha yer değişti.
+4.aşama: 27 ile 18 kıyaslandı ve yer değiştirdiler. 18 22 den küçük 16 dan büyük olduğu için bir kez daha yer değişti.
 [2,16,18,22,27,6]
 
-5.aşama 27 ile 6 kıyaslandı ve yer değiştirdiler. 6 sadece 2 den büyük olduğu için tekrar yer değiştirdi.
+5.aşama: 27 ile 6 kıyaslandı ve yer değiştirdiler. 6 sadece 2 den büyük olduğu için tekrar yer değiştirdi.
 SON DURUM : [2,6,16,18,22,27]
 
 ****************************************
@@ -23,6 +25,7 @@ Best-Case: Ω(n)
 Average-Case: O(n²)
 Worst-Case: O(n²)
 
+****************************************
 
 3-)
 Aradığımız sayı : 2 olsun
@@ -30,7 +33,34 @@ Best-case(en başta olma durumu) : [2,16,22,18,27,6]
 Aveage-case(ortada olma durumu) : [16,22,2,18,27,6]
 Worst-case(en sonda olma durumu): [16,22,18,27,6,2]
 
+****************************************
 
+4-)
+Sıralı hali : [2,6,16,18,22,27]
+18 sayısı orta da yer aldığından avarage-case durumundadır.
+
+****************************************
+
+5-)
+[7,3,5,8,2,9,4,15,6] ilk 4 adım.
+
+1.adım: 7 ile 3 
+[3,7,5,8,2,9,4,15,6]
+
+2.adım: 7 ile 5 
+[3,5,7,8,2,9,4,15,6]
+
+3.adım: 7 ile 8
+[3,5,7,8,2,9,4,15,6]
+
+4.adım: 8 ile 2 
+[2,3,5,7,8,9,4,15,6]
+
+
+---MERGE SORT PROJESİ---
+
+
+www.patika.dev
 
 
 
